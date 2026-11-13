@@ -124,7 +124,7 @@ Ilustrasi sederhana garasi (outline, `outline` color), teks `body` "Belum ada ke
 | Layar PRD | Bentuk Hommie |
 |---|---|
 | `(tabs)/home` | Section 1: greeting `display` ("Garasimu", Archivo 800) + tanggal caption. Section 2: **hero agenda** — agenda terdesak sebagai kartu utama dengan angka hitung mundur besar (`display`, warna status) + bar countdown, link agenda lainnya di bawahnya. Section 3: kartu kendaraan (VehicleCard). Glanceable: yang paling mendesak terlihat tanpa scroll. FAB `accent` di kanan-bawah. |
-| `vehicle/[id]` | Header: back + plat (`title`, Archivo) + merek + edit. **Hero agenda terdekat** kendaraan ("Terlambat 5 hari" / "7" + "hari lagi", warna status) → tap buka detail agenda. Kartu odometer (`display` + tombol Update), daftar dokumen sebagai baris + badge status, riwayat servis kronologis (jenis + tanggal + biaya). |
+| `vehicle/[id]` | Header: back + plat (`title`, Barlow) + merek + edit. **Hero agenda terdekat** kendaraan ("Terlambat 5 hari" / "7" + "hari lagi", warna status) selalu tampil di atas tab. Segmented tab (Info & dokumen / Riwayat servis): tab Info = kartu odometer (`display` + tombol Update) + daftar dokumen dengan badge status; tab Riwayat = daftar servis kronologis (jenis + tanggal + biaya). Mock punya dua state tab; implementasi = satu layar dengan tab state. |
 | `vehicle/form` | Satu layar scroll, field mengikuti urutan PRD; foto kendaraan di atas (tappable, placeholder kamera). Simpan = button `accent` full-width, sticky di bawah (safe area). |
 | `service/form` | Field urut: tanggal → odometer → jenis (chip) → biaya → bengkel → catatan → foto bukti. Setelah simpan dengan jenis "servis berkala", tampilkan sheet konfirmasi agenda berikutnya (tanggal default +6/+3 bulan) yang bisa diedit langsung. |
 | `document/form` | Pilih jenis dokumen (3 pilihan segmented), nomor (opsional), jatuh tempo (picker). |
@@ -157,6 +157,7 @@ Layar state tambahan (pelengkap R-27): **skeleton loading dashboard** (blok `sur
 - Loading/error tanpa state eksplisit; aksi destruktif tanpa konfirmasi.
 - Purple default AI, gradien dekoratif, shadow berat di light mode, `#FFF` murni sebagai teks dark mode.
 - `accessibilityLabel` hilang pada elemen interaktif; font tak ikut Dynamic Type/font scale.
+- Ikon baris dibungkus kotak/chip dekoratif; ikon di-tint warna status padahal badge status ikut tampil di baris yang sama. Ikon telanjang di baris list; wadah hanya untuk kontrol tap 44pt (header), FAB, dropzone foto, dan ilustrasi state (empty/error).
 
 ---
 

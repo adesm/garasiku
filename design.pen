@@ -1,0 +1,5294 @@
+{
+  "version": "2.22",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Hy3Z2",
+      "x": 0,
+      "y": 0,
+      "name": "Badge",
+      "reusable": true,
+      "fill": "$dangerSoft",
+      "cornerRadius": 999,
+      "gap": 6,
+      "padding": [
+        4,
+        10
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "ellipse",
+          "id": "PUVDH",
+          "name": "Dot",
+          "fill": "$danger",
+          "width": 6,
+          "height": 6
+        },
+        {
+          "type": "text",
+          "id": "qXGJb",
+          "name": "Label",
+          "fill": "$text",
+          "content": "Terlambat",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oq6Jf",
+      "x": 140,
+      "y": 0,
+      "name": "AgendaRow",
+      "reusable": true,
+      "width": 358,
+      "fill": "$surface",
+      "cornerRadius": 16,
+      "gap": 12,
+      "padding": 12,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "wv9m3",
+          "name": "Icon Box",
+          "width": 24,
+          "height": 24,
+          "fill": "$altB-surface",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "EKYYf",
+              "name": "Icon",
+              "width": 20,
+              "height": 20,
+              "icon": "build",
+              "library": "Material Symbols Rounded",
+              "fill": "$textSecondary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wTN23",
+          "name": "Text Col",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 2,
+          "children": [
+            {
+              "type": "text",
+              "id": "Xb5oC",
+              "name": "Title",
+              "fill": "$text",
+              "content": "Servis berkala",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "J3I3i",
+              "name": "Subtitle",
+              "fill": "$textSecondary",
+              "content": "B 1234 XYZ · Mobil",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iL4sH",
+          "name": "Right Col",
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "Ljdxp",
+              "name": "Date",
+              "fill": "$textSecondary",
+              "content": "5 Nov",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "id": "h9YTj7",
+              "type": "ref",
+              "ref": "Hy3Z2",
+              "name": "Badge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "buSNY",
+      "x": 540,
+      "y": 0,
+      "name": "VehicleCard",
+      "reusable": true,
+      "width": 358,
+      "fill": "$surface",
+      "cornerRadius": 16,
+      "stroke": "$outline",
+      "strokeWidth": 1,
+      "gap": 12,
+      "padding": 16,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "nbtOW",
+          "name": "Thumb",
+          "width": 64,
+          "height": 64,
+          "fill": "$surfaceMuted",
+          "cornerRadius": 12,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "R1YYi",
+              "name": "Car Icon",
+              "width": 28,
+              "height": 28,
+              "icon": "directions_car",
+              "library": "Material Symbols Rounded",
+              "fill": "$textSecondary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kjFlM",
+          "name": "Text Col",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 2,
+          "children": [
+            {
+              "type": "text",
+              "id": "j57Bs",
+              "name": "Plate",
+              "fill": "$text",
+              "content": "B 1234 XYZ",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ksbop",
+              "name": "Brand",
+              "fill": "$textSecondary",
+              "content": "Honda Brio · 2021",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZgFsx",
+          "name": "Badge Col",
+          "layout": "vertical",
+          "alignItems": "end",
+          "children": [
+            {
+              "id": "RN6h8",
+              "type": "ref",
+              "ref": "Hy3Z2",
+              "name": "Badge",
+              "fill": "$dangerSoft",
+              "descendants": {
+                "PUVDH": {
+                  "fill": "$danger"
+                },
+                "qXGJb": {
+                  "content": "2 agenda"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "biCtM",
+      "x": 940,
+      "y": 0,
+      "name": "Button Primary",
+      "reusable": true,
+      "width": 358,
+      "height": 48,
+      "fill": "$accent",
+      "cornerRadius": 12,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "kJsOS",
+          "name": "Label",
+          "fill": "$onAccent",
+          "content": "Simpan",
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UP0oa",
+      "x": 940,
+      "y": 64,
+      "name": "Button Secondary",
+      "reusable": true,
+      "width": 358,
+      "height": 48,
+      "fill": "$surfaceMuted",
+      "cornerRadius": 12,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "PYdlg",
+          "name": "Label",
+          "fill": "$text",
+          "content": "Update odometer",
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "600"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZiSmJ",
+      "x": 1340,
+      "y": 0,
+      "name": "Chip",
+      "reusable": true,
+      "fill": "$surfaceMuted",
+      "cornerRadius": 999,
+      "padding": [
+        8,
+        14
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "YFF7i",
+          "name": "Label",
+          "fill": "$text",
+          "content": "Oli mesin",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "apxOO",
+      "x": 1340,
+      "y": 44,
+      "name": "Chip Active",
+      "reusable": true,
+      "fill": "$accentSoft",
+      "cornerRadius": 999,
+      "padding": [
+        8,
+        14
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "VJZWz",
+          "name": "Label",
+          "fill": "$accent",
+          "content": "Oli mesin",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cWLea",
+      "x": 1600,
+      "y": 0,
+      "name": "Form Field",
+      "reusable": true,
+      "width": 358,
+      "layout": "vertical",
+      "gap": 8,
+      "children": [
+        {
+          "type": "text",
+          "id": "pETPo",
+          "name": "Label",
+          "fill": "$textSecondary",
+          "content": "Plat nomor",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "OFGxE",
+          "name": "Input",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "$surface",
+          "cornerRadius": 12,
+          "stroke": "$outline",
+          "strokeWidth": 1,
+          "gap": 8,
+          "padding": [
+            0,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VlqgG",
+              "name": "Value",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "B 1234 XYZ",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "NrJ10",
+      "x": 1600,
+      "y": 140,
+      "name": "Segmented",
+      "reusable": true,
+      "width": 358,
+      "fill": "$surfaceMuted",
+      "cornerRadius": 12,
+      "padding": 4,
+      "children": [
+        {
+          "type": "frame",
+          "id": "qDDT2",
+          "name": "Seg Active",
+          "width": "fill_container",
+          "height": 36,
+          "fill": "$surface",
+          "cornerRadius": 9,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "y54L3",
+              "name": "Label",
+              "fill": "$text",
+              "content": "Info & dokumen",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uOM97",
+          "name": "Seg Inactive",
+          "width": "fill_container",
+          "height": 36,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "oXxAY",
+              "name": "Label",
+              "fill": "$textSecondary",
+              "content": "Riwayat servis",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rccR6",
+      "x": 2000,
+      "y": 0,
+      "name": "FAB",
+      "reusable": true,
+      "width": 56,
+      "height": 56,
+      "fill": "$accent",
+      "cornerRadius": 999,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000055",
+        "offset": {
+          "x": 0,
+          "y": 8
+        },
+        "blur": 24
+      },
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "SH8uD",
+          "name": "Plus",
+          "width": 24,
+          "height": 24,
+          "icon": "add",
+          "library": "Material Symbols Rounded",
+          "fill": "$onAccent"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "BCxik",
+      "x": 2000,
+      "y": 80,
+      "name": "Status Bar",
+      "reusable": true,
+      "width": 390,
+      "height": 62,
+      "padding": [
+        0,
+        24
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "B5hMa",
+          "name": "Time",
+          "fill": "$text",
+          "content": "9:41",
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "xxwjI",
+          "name": "Indicators",
+          "gap": 6,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "B1kL8d",
+              "name": "Signal",
+              "width": 16,
+              "height": 16,
+              "icon": "signal_cellular_alt",
+              "library": "Material Symbols Rounded",
+              "fill": "$text"
+            },
+            {
+              "type": "icon",
+              "id": "JWi1a",
+              "name": "Wifi",
+              "width": 16,
+              "height": 16,
+              "icon": "wifi",
+              "library": "Material Symbols Rounded",
+              "fill": "$text"
+            },
+            {
+              "type": "icon",
+              "id": "Kj2BJ",
+              "name": "Battery",
+              "width": 20,
+              "height": 20,
+              "icon": "battery_full",
+              "library": "Material Symbols Rounded",
+              "fill": "$text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iF1KU",
+      "x": 2000,
+      "y": 160,
+      "name": "Toggle On",
+      "reusable": true,
+      "width": 44,
+      "height": 26,
+      "fill": "$accent",
+      "cornerRadius": 999,
+      "padding": 2,
+      "justifyContent": "end",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "ellipse",
+          "id": "gHXCv",
+          "name": "Knob",
+          "fill": "$onAccent",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XKFqN",
+      "x": 2000,
+      "y": 200,
+      "name": "Toggle Off",
+      "reusable": true,
+      "width": 44,
+      "height": 26,
+      "fill": "$surfaceMuted",
+      "cornerRadius": 999,
+      "padding": 2,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "ellipse",
+          "id": "v7nVw",
+          "name": "Knob",
+          "fill": "$textTertiary",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Y9CEy",
+      "x": 1960,
+      "y": 360,
+      "name": "Quick Action Sheet — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "LAHei",
+          "name": "Dimmed Home",
+          "opacity": 0.35,
+          "width": "fill_container",
+          "height": 280,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "O2xJYQ",
+              "name": "Hint Greeting",
+              "width": 180,
+              "height": 22,
+              "fill": "$textTertiary",
+              "cornerRadius": 8
+            },
+            {
+              "type": "frame",
+              "id": "fdCqZ",
+              "name": "Hint Row",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1
+            },
+            {
+              "type": "frame",
+              "id": "PK4eM",
+              "name": "Hint Row",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1
+            },
+            {
+              "type": "frame",
+              "id": "mZxBS",
+              "name": "Hint Row",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "omDDW",
+          "name": "Sheet",
+          "width": "fill_container",
+          "fill": "$surface",
+          "cornerRadius": [
+            28,
+            28,
+            0,
+            0
+          ],
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#00000066",
+            "offset": {
+              "x": 0,
+              "y": -8
+            },
+            "blur": 32
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            12,
+            16,
+            36,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "CQ6mU",
+              "name": "Grabber Wrap",
+              "width": "fill_container",
+              "padding": [
+                4,
+                0,
+                8,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dRm9M",
+                  "name": "Grabber",
+                  "width": 36,
+                  "height": 4,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 999
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Ee11K",
+              "name": "Sheet Title",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Aksi cepat",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "L3nCbu",
+              "name": "Catat servis",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "$surfaceMuted",
+              "cornerRadius": 12,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "T9l8Ug",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "eBxVL",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "build",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$text"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "rfiYQ",
+                  "name": "Label",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Catat servis",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "tA9p0",
+                  "name": "Chevron",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron_right",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$textTertiary"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ng9ai",
+              "name": "Update dokumen",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "$surfaceMuted",
+              "cornerRadius": 12,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e8nWI",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "FTYjX",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "description",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$text"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZOjQB",
+                  "name": "Label",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Update dokumen",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "K0jCGU",
+                  "name": "Chevron",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron_right",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$textTertiary"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r6dv1f",
+              "name": "Update odometer",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "$surfaceMuted",
+              "cornerRadius": 12,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mmi0b",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GzQGd",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "speed",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$text"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vVVMM",
+                  "name": "Label",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Update odometer",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "E0wxRv",
+                  "name": "Chevron",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron_right",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$textTertiary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QfNCK",
+      "x": 2450,
+      "y": 360,
+      "name": "Onboarding — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "S3WYP",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "w71jH",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Yp3OU",
+              "name": "Top Space",
+              "width": "fill_container",
+              "height": 140
+            },
+            {
+              "type": "frame",
+              "id": "r2w0K",
+              "name": "Garage Icon Circle",
+              "width": 96,
+              "height": 96,
+              "fill": "$surfaceMuted",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "gAmwV",
+                  "name": "Warehouse Icon",
+                  "width": 40,
+                  "height": 40,
+                  "icon": "warehouse",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$textTertiary"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "p5NnjH",
+              "name": "Title",
+              "fill": "$text",
+              "content": "Garasimu masih kosong",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "v9eneT",
+              "name": "Body",
+              "fill": "$textSecondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Mobil dan motormu akan tampil di sini.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "v5OBj",
+              "name": "Spacer",
+              "width": "fill_container",
+              "height": 120
+            },
+            {
+              "id": "H2Y3i1",
+              "type": "ref",
+              "ref": "biCtM",
+              "name": "CTA",
+              "width": "fill_container",
+              "descendants": {
+                "kJsOS": {
+                  "content": "Tambah kendaraan pertama"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "cbNN6",
+              "name": "Bottom Space",
+              "width": "fill_container",
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Tpckn",
+      "x": 980,
+      "y": 1200,
+      "name": "Form Kendaraan — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "u1scd",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "GEoFE",
+          "name": "Header",
+          "width": "fill_container",
+          "padding": 8,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "F9QGC",
+              "name": "Back Button",
+              "width": 44,
+              "height": 44,
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "t0JMkf",
+                  "name": "Back Icon",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "chevron_left",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$text"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "j1XU7",
+              "name": "Header Title",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Tambah kendaraan",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "OQJ3T",
+              "name": "Spacer 44",
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IrtXu",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            8,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z88mcR",
+              "name": "Photo Dropzone",
+              "width": "fill_container",
+              "height": 140,
+              "fill": "$surfaceMuted",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "c70l4",
+                  "name": "Camera Icon",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "photo_camera",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$textSecondary"
+                },
+                {
+                  "type": "text",
+                  "id": "f7L2W",
+                  "name": "Photo Hint",
+                  "fill": "$textSecondary",
+                  "content": "Tambah foto",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qY1Zo",
+              "name": "Field Jenis",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Wvyda",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Jenis",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "MYCuP",
+                  "name": "Chip Row",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "hkcaF",
+                      "type": "ref",
+                      "ref": "apxOO",
+                      "name": "Chip Mobil",
+                      "descendants": {
+                        "VJZWz": {
+                          "content": "Mobil"
+                        }
+                      }
+                    },
+                    {
+                      "id": "jPrmI",
+                      "type": "ref",
+                      "ref": "ZiSmJ",
+                      "name": "Chip Motor",
+                      "descendants": {
+                        "YFF7i": {
+                          "content": "Motor"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "LRwz9",
+              "type": "ref",
+              "ref": "cWLea",
+              "name": "Plat nomor",
+              "descendants": {
+                "pETPo": {
+                  "content": "Plat nomor"
+                },
+                "VlqgG": {
+                  "content": "B 1234 XYZ"
+                }
+              }
+            },
+            {
+              "id": "Yn9m5",
+              "type": "ref",
+              "ref": "cWLea",
+              "name": "Merek",
+              "descendants": {
+                "pETPo": {
+                  "content": "Merek"
+                },
+                "VlqgG": {
+                  "content": "Honda"
+                }
+              }
+            },
+            {
+              "id": "XhTf7",
+              "type": "ref",
+              "ref": "cWLea",
+              "name": "Model",
+              "descendants": {
+                "pETPo": {
+                  "content": "Model"
+                },
+                "VlqgG": {
+                  "content": "Brio Satya 1.2"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "VtYcS",
+              "name": "Half Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "VZvKl",
+                  "type": "ref",
+                  "ref": "cWLea",
+                  "name": "Tahun",
+                  "width": "fill_container",
+                  "descendants": {
+                    "pETPo": {
+                      "content": "Tahun"
+                    },
+                    "VlqgG": {
+                      "content": "2021"
+                    }
+                  }
+                },
+                {
+                  "id": "oNdF3",
+                  "type": "ref",
+                  "ref": "cWLea",
+                  "name": "Warna",
+                  "width": "fill_container",
+                  "descendants": {
+                    "pETPo": {
+                      "content": "Warna"
+                    },
+                    "VlqgG": {
+                      "content": "Abu metalik"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aVOxR",
+              "name": "Field Catatan",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nNOTZ",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Catatan",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "G6UCFe",
+                  "name": "Input",
+                  "width": "fill_container",
+                  "height": 96,
+                  "fill": "$surface",
+                  "cornerRadius": 12,
+                  "stroke": "$outline",
+                  "strokeWidth": 1,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kVQ1O",
+                      "name": "Value",
+                      "fill": "$textTertiary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Mis. bensin pertamax, jadwal tune-up pribadi",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cZxU1",
+              "type": "ref",
+              "ref": "biCtM",
+              "name": "Simpan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "B1E3NV",
+      "x": 1470,
+      "y": 1200,
+      "name": "Form Servis — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "Iz1oY",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "FYykQ",
+          "name": "Header",
+          "width": "fill_container",
+          "padding": 8,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fpZZK",
+              "name": "Back Button",
+              "width": 44,
+              "height": 44,
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "fj10J",
+                  "name": "Back Icon",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "chevron_left",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$text"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "P1XtFp",
+              "name": "Header Title",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Catat servis",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "nKX0S",
+              "name": "Spacer 44",
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u9ag7",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            8,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "XIph7",
+              "name": "Field Tanggal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xK5Ui",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Tanggal",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "B7wk7",
+                  "name": "Input",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "$surface",
+                  "cornerRadius": 12,
+                  "stroke": "$outline",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fHkEz",
+                      "name": "Value",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "10 Nov 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "h6tl08",
+                      "name": "Calendar Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "calendar_month",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textTertiary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HNVhH",
+              "name": "Field Odometer",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AxHom",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Odometer",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "ArjwE",
+                  "name": "Input",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "$surface",
+                  "cornerRadius": 12,
+                  "stroke": "$outline",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O1ME2",
+                      "name": "Value",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "42.310",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IE5bR",
+                      "name": "Unit",
+                      "fill": "$textTertiary",
+                      "content": "km",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BhUGa",
+              "name": "Field Jenis Servis",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pE6nx",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Jenis servis",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "AD8nZ",
+                  "name": "Chip Row 1",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "E5kxXM",
+                      "type": "ref",
+                      "ref": "apxOO",
+                      "name": "Chip Oli",
+                      "descendants": {
+                        "VJZWz": {
+                          "content": "Oli mesin"
+                        }
+                      }
+                    },
+                    {
+                      "id": "N8EkkE",
+                      "type": "ref",
+                      "ref": "ZiSmJ",
+                      "name": "Chip Ban",
+                      "descendants": {
+                        "YFF7i": {
+                          "content": "Ban"
+                        }
+                      }
+                    },
+                    {
+                      "id": "OtlGw",
+                      "type": "ref",
+                      "ref": "ZiSmJ",
+                      "name": "Chip Rem",
+                      "descendants": {
+                        "YFF7i": {
+                          "content": "Rem"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c7Uj7u",
+                  "name": "Chip Row 2",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "id": "KqrrA",
+                      "type": "ref",
+                      "ref": "ZiSmJ",
+                      "name": "Chip Aki",
+                      "descendants": {
+                        "YFF7i": {
+                          "content": "Aki"
+                        }
+                      }
+                    },
+                    {
+                      "id": "hOJwf",
+                      "type": "ref",
+                      "ref": "ZiSmJ",
+                      "name": "Chip Berkala",
+                      "descendants": {
+                        "YFF7i": {
+                          "content": "Servis berkala"
+                        }
+                      }
+                    },
+                    {
+                      "id": "JRMb8",
+                      "type": "ref",
+                      "ref": "ZiSmJ",
+                      "name": "Chip Lainnya",
+                      "descendants": {
+                        "YFF7i": {
+                          "content": "Lainnya"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "DJdP1",
+              "type": "ref",
+              "ref": "cWLea",
+              "name": "Biaya",
+              "descendants": {
+                "pETPo": {
+                  "content": "Biaya"
+                },
+                "VlqgG": {
+                  "content": "Rp 385.000"
+                }
+              }
+            },
+            {
+              "id": "lb147",
+              "type": "ref",
+              "ref": "cWLea",
+              "name": "Bengkel (opsional)",
+              "descendants": {
+                "pETPo": {
+                  "content": "Bengkel (opsional)"
+                },
+                "VlqgG": {
+                  "content": "AHASS Sudirman"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "wurLk",
+              "name": "Field Foto Bukti",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dpkce",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Foto bukti (opsional)",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "lufta",
+                  "name": "Proof Row",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "juj0T",
+                      "name": "Proof Box",
+                      "width": 96,
+                      "height": 96,
+                      "fill": "$surface",
+                      "cornerRadius": 12,
+                      "stroke": "$outline",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Hp10M",
+                          "name": "Camera Icon",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "photo_camera",
+                          "library": "Material Symbols Rounded",
+                          "fill": "$textTertiary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hdFAD",
+              "name": "Agenda Banner",
+              "width": "fill_container",
+              "fill": "$accentSoft",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qcOfg",
+                  "name": "Banner Title",
+                  "fill": "$accent",
+                  "content": "Agenda berikutnya",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "NGzT4",
+                  "name": "Banner Body",
+                  "fill": "$accent",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Servis berkala dibuat otomatis: 10 Mei 2027.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "id": "P8hgqE",
+              "type": "ref",
+              "ref": "biCtM",
+              "name": "Simpan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "taYvA",
+      "x": 1960,
+      "y": 1200,
+      "name": "Form Dokumen — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "hip66",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "c3cH9v",
+          "name": "Header",
+          "width": "fill_container",
+          "padding": 8,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Cw6hc",
+              "name": "Back Button",
+              "width": 44,
+              "height": 44,
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "RNTrr",
+                  "name": "Back Icon",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "chevron_left",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$text"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Z16x3Z",
+              "name": "Header Title",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Update dokumen",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "iWsYf",
+              "name": "Spacer 44",
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C6YRbC",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            8,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "d9eVuQ",
+              "name": "Doc Segmented",
+              "width": "fill_container",
+              "fill": "$surfaceMuted",
+              "cornerRadius": 12,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PcPvl",
+                  "name": "Seg Active",
+                  "width": "fill_container",
+                  "height": 36,
+                  "fill": "$surface",
+                  "cornerRadius": 9,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WfcsD",
+                      "name": "Label",
+                      "fill": "$text",
+                      "content": "Pajak tahunan",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ejWTO",
+                  "name": "Seg Inactive",
+                  "width": "fill_container",
+                  "height": 36,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HIRuX",
+                      "name": "Label",
+                      "fill": "$textSecondary",
+                      "content": "Perpanjangan STNK",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C9IXi",
+                  "name": "Seg Inactive",
+                  "width": "fill_container",
+                  "height": 36,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "axkwV",
+                      "name": "Label",
+                      "fill": "$textSecondary",
+                      "content": "Asuransi",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "N0cjEz",
+              "type": "ref",
+              "ref": "cWLea",
+              "name": "Nomor",
+              "descendants": {
+                "pETPo": {
+                  "content": "Nomor dokumen (opsional)"
+                },
+                "VlqgG": {
+                  "content": "TKP-2026-0041"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "pmdUY",
+              "name": "Field Jatuh Tempo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "clwsa",
+                  "name": "Label",
+                  "fill": "$textSecondary",
+                  "content": "Jatuh tempo",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "A2Gqp",
+                  "name": "Input",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "$surface",
+                  "cornerRadius": 12,
+                  "stroke": "$outline",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E5hCp",
+                      "name": "Value",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "14 Mar 2027",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ibJAj",
+                      "name": "Calendar Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "calendar_month",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textTertiary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UVBGE",
+              "name": "Reminder Banner",
+              "width": "fill_container",
+              "fill": "$accentSoft",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ze9zq",
+                  "name": "Banner Title",
+                  "fill": "$accent",
+                  "content": "Pengingat otomatis",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "f5cG6",
+                  "name": "Banner Body",
+                  "fill": "$accent",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Notifikasi H-7, H-1, dan hari jatuh tempo.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "id": "Si4i7",
+              "type": "ref",
+              "ref": "biCtM",
+              "name": "Simpan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "woznN",
+      "x": 2450,
+      "y": 1200,
+      "name": "Pengaturan — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "U8N0BE",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "uI3It",
+          "name": "Title Wrap",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            8,
+            16,
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "I9ezm",
+              "name": "Title",
+              "fill": "$text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Pengaturan",
+              "fontFamily": "$fontDisplay",
+              "fontSize": 26,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "lWfMa",
+              "name": "Caption",
+              "fill": "$textSecondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Semua pengingat dan data garasimu diatur dari sini.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "i81Il5",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            12,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "f424N",
+              "name": "Group Label",
+              "fill": "$textTertiary",
+              "content": "NOTIFIKASI",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "eXh6f",
+              "name": "Group Card",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "padding": [
+                4,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tWGz0",
+                  "name": "Pengingat H-7",
+                  "width": "fill_container",
+                  "height": 48,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K5zP5",
+                      "name": "Row Label",
+                      "fill": "$text",
+                      "content": "Pengingat H-7",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "C1L2W",
+                      "type": "ref",
+                      "ref": "iF1KU",
+                      "name": "Toggle"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "szFx1",
+                  "name": "Pengingat H-1",
+                  "width": "fill_container",
+                  "height": 48,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e4Glnj",
+                      "name": "Row Label",
+                      "fill": "$text",
+                      "content": "Pengingat H-1",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "h1qcRV",
+                      "type": "ref",
+                      "ref": "iF1KU",
+                      "name": "Toggle"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WFPsh",
+                  "name": "Pengingat hari-H",
+                  "width": "fill_container",
+                  "height": 48,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D7n3i",
+                      "name": "Row Label",
+                      "fill": "$text",
+                      "content": "Pengingat hari-H",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "BC4aF",
+                      "type": "ref",
+                      "ref": "iF1KU",
+                      "name": "Toggle"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "L6v4Gf",
+              "name": "Group Label",
+              "fill": "$textTertiary",
+              "content": "BACKUP & RESTORE",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "QMZBO",
+              "name": "Group Card",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "padding": [
+                4,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "snKCx",
+                  "name": "Ekspor data",
+                  "width": "fill_container",
+                  "height": 48,
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "FoCr7",
+                      "name": "Row Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "download",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w353d",
+                      "name": "Row Label",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ekspor data",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "t5ObTT",
+                      "name": "Chevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron_right",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textTertiary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lhTwO",
+                  "name": "Impor data",
+                  "width": "fill_container",
+                  "height": 48,
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mlLjo",
+                      "name": "Row Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "upload",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kXqqK",
+                      "name": "Row Label",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Impor data",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "WI0Eh",
+                      "name": "Chevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron_right",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textTertiary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oKOJB",
+              "name": "Group Label",
+              "fill": "$textTertiary",
+              "content": "TENTANG",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "HqYQS",
+              "name": "Group Card",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "stroke": "$outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "padding": [
+                4,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zBItA",
+                  "name": "Versi aplikasi",
+                  "width": "fill_container",
+                  "height": 48,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j3C6r",
+                      "name": "Row Label",
+                      "fill": "$text",
+                      "content": "Versi aplikasi",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g9xPNH",
+                      "name": "Row Value",
+                      "fill": "$textTertiary",
+                      "content": "1.0.0",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TPk8e",
+      "x": 490,
+      "y": 2375,
+      "name": "Dashboard — Loading (skeleton) — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "zVpVS",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "RUX6L",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "fQUDg",
+              "name": "Header Skeleton",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j7p8St",
+                  "name": "Block 1",
+                  "width": 160,
+                  "height": 26,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "AGCy8",
+                  "name": "Block 2",
+                  "width": 120,
+                  "height": 16,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 8
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kjP2O",
+              "name": "Section Skeleton 1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jkUm4",
+                  "name": "Block Title",
+                  "width": 130,
+                  "height": 20,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 6
+                },
+                {
+                  "type": "frame",
+                  "id": "roWy8",
+                  "name": "Block Row",
+                  "width": "fill_container",
+                  "height": 64,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "m2MAJf",
+                  "name": "Block Row",
+                  "width": "fill_container",
+                  "height": 64,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "MQug9",
+                  "name": "Block Row",
+                  "width": "fill_container",
+                  "height": 64,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dbY4G",
+              "name": "Section Skeleton 2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "P1NbX2",
+                  "name": "Block Title",
+                  "width": 110,
+                  "height": 20,
+                  "fill": "$surfaceMuted",
+                  "cornerRadius": 6
+                },
+                {
+                  "type": "frame",
+                  "id": "BL8sq",
+                  "name": "Block Card",
+                  "width": "fill_container",
+                  "height": 96,
+                  "fill": "$surface",
+                  "cornerRadius": 16,
+                  "stroke": "$outline",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "iKBJY",
+                  "name": "Block Card",
+                  "width": "fill_container",
+                  "height": 96,
+                  "fill": "$surface",
+                  "cornerRadius": 16,
+                  "stroke": "$outline",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "aNXq4",
+      "x": 980,
+      "y": 2375,
+      "name": "Error State — Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "cTAGT",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "W25Fm",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gXl3o",
+              "name": "Top Space",
+              "width": "fill_container",
+              "height": 160
+            },
+            {
+              "type": "frame",
+              "id": "h5FeK1",
+              "name": "Error Icon Circle",
+              "width": 96,
+              "height": 96,
+              "fill": "$dangerSoft",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "MuyYD",
+                  "name": "Error Icon",
+                  "width": 40,
+                  "height": 40,
+                  "icon": "error",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$danger"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "KZBcJ",
+              "name": "Title",
+              "fill": "$text",
+              "content": "Terjadi kesalahan",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "tOZ4h",
+              "name": "Body",
+              "fill": "$textSecondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Garasimu gagal dimuat. Coba lagi, atau periksa koneksi internetmu.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "se4RM",
+              "name": "Spacer",
+              "width": "fill_container",
+              "height": 120
+            },
+            {
+              "id": "h5KOa2",
+              "type": "ref",
+              "ref": "biCtM",
+              "name": "Retry",
+              "width": "fill_container",
+              "descendants": {
+                "kJsOS": {
+                  "content": "Coba lagi"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "O9IADh",
+              "name": "Bottom Space",
+              "width": "fill_container",
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Lt86r",
+      "x": 490,
+      "y": 223,
+      "name": "ALT B — Bengkel Malam (Dashboard)",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$altB-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "uOJit",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "AJml5",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            16,
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y3U5Ih",
+              "name": "Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u1lw42",
+                  "name": "Title Col",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KnKSN",
+                      "name": "Date",
+                      "fill": "$altB-textSecondary",
+                      "content": "Rabu, 11 Nov",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i3XOy",
+                      "name": "Title",
+                      "fill": "$altB-text",
+                      "content": "Garasimu",
+                      "fontFamily": "$altB-font",
+                      "fontSize": 32,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G0m6Bf",
+                  "name": "Settings Button",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$altB-surfaceMuted",
+                  "cornerRadius": 999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "o3Huzc",
+                      "name": "Settings Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "settings",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$altB-textSecondary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B5cty6",
+              "name": "Hero Agenda",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 20,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oFdAB",
+                  "name": "Hero Top",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CMbBO",
+                      "name": "Kind Chip",
+                      "fill": "$altB-surfaceMuted",
+                      "cornerRadius": 999,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iFviy",
+                          "name": "Kind",
+                          "fill": "$altB-text",
+                          "content": "Servis berkala",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "zLbV3",
+                      "type": "ref",
+                      "ref": "Hy3Z2",
+                      "name": "Badge",
+                      "fill": "$warningSoft",
+                      "descendants": {
+                        "PUVDH": {
+                          "fill": "$warning"
+                        },
+                        "qXGJb": {
+                          "content": "7 hari lagi"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vqDXI",
+                  "name": "Vehicle",
+                  "fill": "$altB-textSecondary",
+                  "content": "B 9876 KL · Honda Beat",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "hPlrT",
+                  "name": "Countdown Row",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TPwSm",
+                      "name": "Days",
+                      "fill": "$altB-accent",
+                      "content": "7",
+                      "fontFamily": "$altB-font",
+                      "fontSize": 52,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ddxvb",
+                      "name": "Days Label",
+                      "fill": "$altB-text",
+                      "content": "hari lagi",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qhVul",
+                  "name": "Countdown Track",
+                  "width": "fill_container",
+                  "height": 6,
+                  "fill": "$altB-surfaceMuted",
+                  "cornerRadius": 999,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FKtDq",
+                      "name": "Countdown Bar",
+                      "width": 76,
+                      "height": 6,
+                      "fill": "$altB-accent",
+                      "cornerRadius": 999
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "GksVj",
+                  "name": "Due",
+                  "fill": "$altB-textSecondary",
+                  "content": "Jatuh tempo 18 Nov · servis terakhir 18 Mei",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qywvY",
+              "name": "Section Label",
+              "fill": "$altB-text",
+              "content": "Agenda lainnya",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "rH83z",
+              "name": "Pajak tahunan",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XLk53",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "oQNFI",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "description",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J3OHsz",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oMhsa",
+                      "name": "Title",
+                      "fill": "$altB-text",
+                      "content": "Pajak tahunan",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qXMLg",
+                      "name": "Subtitle",
+                      "fill": "$altB-textSecondary",
+                      "content": "B 1234 XYZ · Mobil",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "abZeE",
+                  "name": "Right Col",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eWaiw",
+                      "name": "Date",
+                      "fill": "$altB-textSecondary",
+                      "content": "5 Nov",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "k0ZS7B",
+                      "type": "ref",
+                      "ref": "Hy3Z2",
+                      "name": "Badge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "arSEz",
+              "name": "Perpanjangan STNK",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MZlfA",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "PQBdC",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "description",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A6tzl",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GYcxf",
+                      "name": "Title",
+                      "fill": "$altB-text",
+                      "content": "Perpanjangan STNK",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z8Z6O",
+                      "name": "Subtitle",
+                      "fill": "$altB-textSecondary",
+                      "content": "B 1234 XYZ · Mobil",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mxM0N",
+                  "name": "Right Col",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z81J6",
+                      "name": "Date",
+                      "fill": "$altB-textSecondary",
+                      "content": "5 Des",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "td9lr",
+                      "type": "ref",
+                      "ref": "Hy3Z2",
+                      "name": "Badge",
+                      "fill": "$cautionSoft",
+                      "descendants": {
+                        "PUVDH": {
+                          "fill": "$caution"
+                        },
+                        "qXGJb": {
+                          "content": "24 hari lagi"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ugKzW",
+              "name": "Vehicles Label",
+              "fill": "$altB-text",
+              "content": "Kendaraanmu",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "cPP9v",
+              "name": "Vehicles Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WYitw",
+                  "name": "B 1234 XYZ",
+                  "width": "fill_container",
+                  "fill": "$altB-surface",
+                  "cornerRadius": 16,
+                  "stroke": "$altB-outline",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K24j4l",
+                      "name": "Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DQk1G",
+                          "name": "Plate",
+                          "fill": "$altB-text",
+                          "content": "B 1234 XYZ",
+                          "fontFamily": "$altB-font",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "id": "CPeQG",
+                          "type": "ref",
+                          "ref": "Hy3Z2",
+                          "name": "Badge",
+                          "descendants": {
+                            "qXGJb": {
+                              "content": "2 agenda"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pQLwh",
+                      "name": "Brand",
+                      "fill": "$altB-textSecondary",
+                      "content": "Honda Brio · 2021",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q8Mvu",
+                  "name": "B 9876 KL",
+                  "width": "fill_container",
+                  "fill": "$altB-surface",
+                  "cornerRadius": 16,
+                  "stroke": "$altB-outline",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a45ZC6",
+                      "name": "Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vJZ5g",
+                          "name": "Plate",
+                          "fill": "$altB-text",
+                          "content": "B 9876 KL",
+                          "fontFamily": "$altB-font",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "id": "FvYKc",
+                          "type": "ref",
+                          "ref": "Hy3Z2",
+                          "name": "Badge",
+                          "fill": "$accentSoft",
+                          "descendants": {
+                            "PUVDH": {
+                              "fill": "$accent"
+                            },
+                            "qXGJb": {
+                              "content": "1 agenda"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "e33AYo",
+                      "name": "Brand",
+                      "fill": "$altB-textSecondary",
+                      "content": "Honda Beat · 2020",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nhuMr",
+          "type": "ref",
+          "ref": "rccR6",
+          "name": "FAB",
+          "x": 318,
+          "y": 764,
+          "layoutPosition": "absolute",
+          "fill": "$altB-accent",
+          "descendants": {
+            "SH8uD": {
+              "fill": "$altB-onAccent"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "JKzgh",
+      "x": 980,
+      "y": 360,
+      "name": "Catatan ALT B",
+      "width": 280,
+      "height": 0,
+      "content": "ALT B \"Bengkel Malam\" — industrial bold.\nDial: ENERGY 2 / RHYTHM 2 / MOTION 1.\nKenapa: karakter garasi/bengkel yang tegas; agenda paling mendesak jadi hero card dengan hitungan hari besar (glanceable tanpa baca). Aksen lime dipakai hanya di angka, bar, dan FAB; warna status tetap merah/oranye/kuning sesuai PRD.\nCatatan: aksen lime menyimpang dari keputusan PRD (biru) — jika dipilih, PRD perlu diubah."
+    },
+    {
+      "type": "frame",
+      "id": "nngzq",
+      "x": 490,
+      "y": 3207,
+      "name": "ALT C — Kertas (Dashboard)",
+      "theme": {
+        "mode": "light"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$altC-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "R5Yinb",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "tR6sr",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            20,
+            40,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZikTE",
+              "name": "Header Col",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Hns0z",
+                  "name": "Greeting",
+                  "fill": "$altC-ink",
+                  "content": "Halo, garasimu",
+                  "fontFamily": "$altC-font",
+                  "fontSize": 30,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "mvvXy",
+                  "name": "Meta",
+                  "fill": "$altC-textSecondary",
+                  "content": "2 kendaraan · 4 agenda aktif",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uKxNj",
+              "name": "Rule",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$altC-outline"
+            },
+            {
+              "type": "frame",
+              "id": "Cutkb",
+              "name": "Agenda Label Row",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B5G35u",
+                  "name": "Label",
+                  "fill": "$altC-ink",
+                  "content": "Agenda terdekat",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Nrk6A",
+                  "name": "See All",
+                  "fill": "$accent",
+                  "content": "Lihat semua",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "h8JzF",
+              "name": "Pajak tahunan",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mm77U",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wYBOk",
+                      "name": "Title",
+                      "fill": "$altC-ink",
+                      "content": "Pajak tahunan",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kdebD",
+                      "name": "Subtitle",
+                      "fill": "$altC-textSecondary",
+                      "content": "B 1234 XYZ · Mobil",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w8e250",
+                  "name": "Date Col",
+                  "width": 52,
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JcoGq",
+                      "name": "Day",
+                      "fill": "$altC-ink",
+                      "content": "5",
+                      "fontFamily": "$altC-font",
+                      "fontSize": 26,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cDq99",
+                      "name": "Month",
+                      "fill": "$altC-textSecondary",
+                      "content": "Nov",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "M3n76",
+                  "type": "ref",
+                  "ref": "Hy3Z2",
+                  "name": "Badge",
+                  "fill": "$dangerSoft",
+                  "descendants": {
+                    "PUVDH": {
+                      "fill": "$danger"
+                    },
+                    "qXGJb": {
+                      "content": "Terlambat"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LhzaU",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$altC-outline"
+            },
+            {
+              "type": "frame",
+              "id": "s1W87P",
+              "name": "Servis berkala",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lbK0Q",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kgkzo",
+                      "name": "Title",
+                      "fill": "$altC-ink",
+                      "content": "Servis berkala",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nlAhB",
+                      "name": "Subtitle",
+                      "fill": "$altC-textSecondary",
+                      "content": "B 9876 KL · Motor",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w9X21",
+                  "name": "Date Col",
+                  "width": 52,
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m5U2q",
+                      "name": "Day",
+                      "fill": "$altC-ink",
+                      "content": "18",
+                      "fontFamily": "$altC-font",
+                      "fontSize": 26,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rkqPF",
+                      "name": "Month",
+                      "fill": "$altC-textSecondary",
+                      "content": "Nov",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "xuOEY",
+                  "type": "ref",
+                  "ref": "Hy3Z2",
+                  "name": "Badge",
+                  "fill": "$warningSoft",
+                  "descendants": {
+                    "PUVDH": {
+                      "fill": "$warning"
+                    },
+                    "qXGJb": {
+                      "content": "7 hari lagi"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XpbU5",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$altC-outline"
+            },
+            {
+              "type": "frame",
+              "id": "lxXRf",
+              "name": "Perpanjangan STNK",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xOBGZ",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bpm4A",
+                      "name": "Title",
+                      "fill": "$altC-ink",
+                      "content": "Perpanjangan STNK",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p525Qy",
+                      "name": "Subtitle",
+                      "fill": "$altC-textSecondary",
+                      "content": "B 1234 XYZ · Mobil",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iaNT4",
+                  "name": "Date Col",
+                  "width": 52,
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mEkh6",
+                      "name": "Day",
+                      "fill": "$altC-ink",
+                      "content": "5",
+                      "fontFamily": "$altC-font",
+                      "fontSize": 26,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f2V2fY",
+                      "name": "Month",
+                      "fill": "$altC-textSecondary",
+                      "content": "Des",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "T6zNA",
+                  "type": "ref",
+                  "ref": "Hy3Z2",
+                  "name": "Badge",
+                  "fill": "$cautionSoft",
+                  "descendants": {
+                    "PUVDH": {
+                      "fill": "$caution"
+                    },
+                    "qXGJb": {
+                      "content": "24 hari lagi"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o2LeXr",
+              "name": "Rule 2",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$altC-outline"
+            },
+            {
+              "type": "text",
+              "id": "zIliz",
+              "name": "Vehicles Label",
+              "fill": "$altC-ink",
+              "content": "Kendaraanmu",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "zt7hC",
+              "name": "B 1234 XYZ",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L6DXE",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CyOi6",
+                      "name": "Plate",
+                      "fill": "$altC-ink",
+                      "content": "B 1234 XYZ",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uOmx1",
+                      "name": "Brand",
+                      "fill": "$altC-textSecondary",
+                      "content": "Honda Brio · 2021",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "R7cOoM",
+                  "type": "ref",
+                  "ref": "Hy3Z2",
+                  "name": "Badge",
+                  "fill": "$dangerSoft",
+                  "descendants": {
+                    "PUVDH": {
+                      "fill": "$danger"
+                    },
+                    "qXGJb": {
+                      "content": "2 agenda"
+                    }
+                  }
+                },
+                {
+                  "type": "icon",
+                  "id": "C7T1ib",
+                  "name": "Chevron",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron_right",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$altC-textSecondary"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bpBsL",
+              "name": "B 9876 KL",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zxX8h",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "paK5N",
+                      "name": "Plate",
+                      "fill": "$altC-ink",
+                      "content": "B 9876 KL",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hHica",
+                      "name": "Brand",
+                      "fill": "$altC-textSecondary",
+                      "content": "Honda Beat · 2020",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "rgGDv",
+                  "type": "ref",
+                  "ref": "Hy3Z2",
+                  "name": "Badge",
+                  "fill": "$accentSoft",
+                  "descendants": {
+                    "PUVDH": {
+                      "fill": "$accent"
+                    },
+                    "qXGJb": {
+                      "content": "1 agenda"
+                    }
+                  }
+                },
+                {
+                  "type": "icon",
+                  "id": "Bba0L",
+                  "name": "Chevron",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "chevron_right",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$altC-textSecondary"
+                }
+              ]
+            },
+            {
+              "id": "u9IB5",
+              "type": "ref",
+              "ref": "biCtM",
+              "name": "Primary CTA",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "r461Oc",
+      "x": 980,
+      "y": 3207,
+      "name": "Catatan ALT C",
+      "width": 280,
+      "height": 0,
+      "content": "ALT C \"Kertas\" — editorial tenang.\nDial: ENERGY 1 / RHYTHM 2 / MOTION 1.\nKenapa: garasi sebagai arsip rapi kertas; tanggal besar serif (Fraunces) jadi titik fokus per baris agenda, pemisah garis tipis alih-alih kartu. Aksen tetap biru sesuai keputusan PRD.\nCatatan: Fraunces hanya untuk display; body tetap Inter agar data terbaca cepat."
+    },
+    {
+      "type": "frame",
+      "id": "v1EXjO",
+      "x": 490,
+      "y": 1200,
+      "name": "ALT B — Detail Kendaraan (Bengkel Malam)",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$altB-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "OW5pI",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "yHvxB",
+          "name": "Header",
+          "width": "fill_container",
+          "gap": 12,
+          "padding": [
+            8,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "L9DckP",
+              "name": "Back Button",
+              "width": 44,
+              "height": 44,
+              "fill": "$altB-surfaceMuted",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "T580X",
+                  "name": "Back Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "arrow_back",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$altB-text"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T3ro2",
+              "name": "Title Col",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CArbg",
+                  "name": "Title",
+                  "fill": "$altB-text",
+                  "content": "B 1234 XYZ",
+                  "fontFamily": "$altB-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "TDIf3",
+                  "name": "Subtitle",
+                  "fill": "$altB-textSecondary",
+                  "content": "Honda Brio · 2021",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a5g38Q",
+              "name": "Edit Button",
+              "width": 44,
+              "height": 44,
+              "fill": "$altB-surfaceMuted",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "BBt7m",
+                  "name": "Edit Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "edit",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$altB-textSecondary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IgYpm",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Eer5M",
+              "name": "Hero Agenda",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 20,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k3nUzw",
+                  "name": "Top",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pnjK3",
+                      "name": "Kind Chip",
+                      "fill": "$altB-surfaceMuted",
+                      "cornerRadius": 999,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OvKQZ",
+                          "name": "Kind",
+                          "fill": "$altB-text",
+                          "content": "Agenda terdekat",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "iGn4j",
+                      "name": "Link Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron_right",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$altB-textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "nxbcM",
+                  "name": "Title",
+                  "fill": "$altB-text",
+                  "content": "Pajak tahunan · B 1234 XYZ",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "s5eWwQ",
+                  "name": "Big",
+                  "fill": "$danger",
+                  "content": "Terlambat 5 hari",
+                  "fontFamily": "$altB-font",
+                  "fontSize": 40,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "OTAqt",
+                  "name": "Due",
+                  "fill": "$altB-textSecondary",
+                  "content": "Jatuh tempo 5 Nov",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "id": "qJX2m",
+              "type": "ref",
+              "ref": "NrJ10",
+              "name": "Segmented",
+              "width": "fill_container",
+              "fill": "$altB-surfaceMuted",
+              "descendants": {
+                "qDDT2": {
+                  "fill": "$altB-accent"
+                },
+                "y54L3": {
+                  "content": "Info & dokumen",
+                  "fill": "$altB-onAccent"
+                },
+                "uOM97": {
+                  "fill": "$altB-surface"
+                },
+                "oXxAY": {
+                  "content": "Riwayat servis",
+                  "fill": "$altB-textSecondary"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "b7Zo8",
+              "name": "Odometer Card",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gBUPw",
+                  "name": "Label",
+                  "fill": "$altB-textSecondary",
+                  "content": "Odometer terakhir",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "y8JqNh",
+                  "name": "Row",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CYeSl",
+                      "name": "Value",
+                      "fill": "$altB-text",
+                      "content": "12.480 km",
+                      "fontFamily": "$altB-font",
+                      "fontSize": 32,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a0ngq",
+                      "name": "Update Button",
+                      "fill": "$altB-surfaceMuted",
+                      "cornerRadius": 12,
+                      "stroke": "$altB-outline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "M89nQ",
+                          "name": "Update Label",
+                          "fill": "$altB-text",
+                          "content": "Update",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VBziE",
+                  "name": "Date",
+                  "fill": "$altB-textSecondary",
+                  "content": "Diperbarui 2 Nov 2026 · catatan servis",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "JKoAH",
+              "name": "Documents Label",
+              "fill": "$altB-text",
+              "content": "Dokumen",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "k4OZN",
+              "name": "Pajak tahunan",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FP4yM",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "v6R5C",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "description",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n8wYu7",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S0R1p",
+                      "name": "Title",
+                      "fill": "$altB-text",
+                      "content": "Pajak tahunan",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nyj8J",
+                      "name": "Subtitle",
+                      "fill": "$altB-textSecondary",
+                      "content": "· 9876/2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V1n9kF",
+                  "name": "Right Col",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Rv36P",
+                      "name": "Date",
+                      "fill": "$altB-textSecondary",
+                      "content": "5 Nov",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "KnctB",
+                      "type": "ref",
+                      "ref": "Hy3Z2",
+                      "name": "Badge",
+                      "fill": "$dangerSoft",
+                      "descendants": {
+                        "PUVDH": {
+                          "fill": "$danger"
+                        },
+                        "qXGJb": {
+                          "content": "Terlambat"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I7zHW",
+              "name": "Perpanjangan STNK",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f4OD2",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zL6oI",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "description",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y9nxm",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X4Hfd",
+                      "name": "Title",
+                      "fill": "$altB-text",
+                      "content": "Perpanjangan STNK",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o03pE4",
+                      "name": "Subtitle",
+                      "fill": "$altB-textSecondary",
+                      "content": "· AB1234567",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xtLvG",
+                  "name": "Right Col",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B6OLT",
+                      "name": "Date",
+                      "fill": "$altB-textSecondary",
+                      "content": "5 Des",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "E4oAC",
+                      "type": "ref",
+                      "ref": "Hy3Z2",
+                      "name": "Badge",
+                      "fill": "$cautionSoft",
+                      "descendants": {
+                        "PUVDH": {
+                          "fill": "$caution"
+                        },
+                        "qXGJb": {
+                          "content": "24 hari lagi"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p3CyGJ",
+              "name": "Asuransi",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wjg1r",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "FelMF",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "verified_user",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n6e3f",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RZzvj",
+                      "name": "Title",
+                      "fill": "$altB-text",
+                      "content": "Asuransi",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uN5Pi",
+                      "name": "Subtitle",
+                      "fill": "$altB-textSecondary",
+                      "content": "—",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f0NkHK",
+                  "name": "Right Col",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rhMwY",
+                      "name": "Date",
+                      "fill": "$altB-textSecondary",
+                      "content": "Tidak diisi",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "ovA8p",
+                      "type": "ref",
+                      "ref": "Hy3Z2",
+                      "name": "Badge",
+                      "fill": "$altB-surfaceMuted",
+                      "descendants": {
+                        "PUVDH": {
+                          "fill": "$altB-textSecondary"
+                        },
+                        "qXGJb": {
+                          "content": "Kosong"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "CODTG",
+      "x": 0,
+      "y": 250,
+      "name": "Seksi — Komponen & indeks",
+      "width": 380,
+      "height": 0,
+      "content": "ATAS: komponen reusable.\nBAWAH: 10 layar final \"Bengkel Malam\" dalam 4 baris (alur utama, form & pengaturan, layar state, arsip eksplorasi) — satu catatan per baris di kolom kiri."
+    },
+    {
+      "type": "note",
+      "id": "hUohw",
+      "x": 0,
+      "y": 360,
+      "name": "Seksi — Alur utama",
+      "width": 380,
+      "height": 0,
+      "content": "Alur utama: dashboard, agenda, aksi cepat (sheet), onboarding kosong."
+    },
+    {
+      "type": "note",
+      "id": "t0RKpF",
+      "x": 0,
+      "y": 1200,
+      "name": "Seksi — Form & pengaturan",
+      "width": 380,
+      "height": 0,
+      "content": "Form kendaraan, servis, dokumen + pengaturan."
+    },
+    {
+      "type": "note",
+      "id": "HLtcc",
+      "x": 0,
+      "y": 2375,
+      "name": "Seksi — Layar state",
+      "width": 380,
+      "height": 0,
+      "content": "Skeleton loading + error state."
+    },
+    {
+      "type": "note",
+      "id": "zY7gM",
+      "x": 0,
+      "y": 3207,
+      "name": "Seksi — Arsip eksplorasi",
+      "width": 380,
+      "height": 0,
+      "content": "ALT C \"Kertas\" (ditolak) — arsip perbandingan."
+    },
+    {
+      "type": "frame",
+      "id": "FR2lO",
+      "x": 2940,
+      "y": 1200,
+      "name": "ALT B — Detail — Riwayat servis (Tab)",
+      "theme": {
+        "mode": "dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "$altB-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "hziRP",
+          "type": "ref",
+          "ref": "BCxik",
+          "name": "Status Bar"
+        },
+        {
+          "type": "frame",
+          "id": "V2Pw8",
+          "name": "Header",
+          "width": "fill_container",
+          "gap": 12,
+          "padding": [
+            8,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hzuQJ",
+              "name": "Back Button",
+              "width": 44,
+              "height": 44,
+              "fill": "$altB-surfaceMuted",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "WkO6T",
+                  "name": "Back Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "arrow_back",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$altB-text"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VrCLo",
+              "name": "Title Col",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BZd6P",
+                  "name": "Title",
+                  "fill": "$altB-text",
+                  "content": "B 1234 XYZ",
+                  "fontFamily": "$altB-font",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "BeaKZ",
+                  "name": "Subtitle",
+                  "fill": "$altB-textSecondary",
+                  "content": "Honda Brio · 2021",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u6VQ8",
+              "name": "Edit Button",
+              "width": 44,
+              "height": 44,
+              "fill": "$altB-surfaceMuted",
+              "cornerRadius": 999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "iBZHv",
+                  "name": "Edit Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "edit",
+                  "library": "Material Symbols Rounded",
+                  "fill": "$altB-textSecondary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ahjxx",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            8,
+            16,
+            40,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "O4P2y",
+              "name": "Hero Agenda",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 20,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cQczL",
+                  "name": "Top",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WMwAG",
+                      "name": "Kind Chip",
+                      "fill": "$altB-surfaceMuted",
+                      "cornerRadius": 999,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y7mudf",
+                          "name": "Kind",
+                          "fill": "$altB-text",
+                          "content": "Agenda terdekat",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Eb4oj",
+                      "name": "Link Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "chevron_right",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$altB-textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ayzUn",
+                  "name": "Title",
+                  "fill": "$altB-text",
+                  "content": "Pajak tahunan · B 1234 XYZ",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "FqvkC",
+                  "name": "Big",
+                  "fill": "$danger",
+                  "content": "Terlambat 5 hari",
+                  "fontFamily": "$altB-font",
+                  "fontSize": 40,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "l0QS8",
+                  "name": "Due",
+                  "fill": "$altB-textSecondary",
+                  "content": "Jatuh tempo 5 Nov",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "id": "Xxhh6",
+              "type": "ref",
+              "ref": "NrJ10",
+              "name": "Segmented",
+              "width": "fill_container",
+              "fill": "$altB-surfaceMuted",
+              "descendants": {
+                "qDDT2": {
+                  "fill": "$altB-surface"
+                },
+                "y54L3": {
+                  "content": "Info & dokumen",
+                  "fill": "$altB-textSecondary"
+                },
+                "uOM97": {
+                  "fill": "$altB-accent"
+                },
+                "oXxAY": {
+                  "content": "Riwayat servis",
+                  "fill": "$altB-onAccent"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "EoTnN",
+              "name": "Services Label",
+              "fill": "$altB-text",
+              "content": "Riwayat servis terakhir",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "NvFDS",
+              "name": "Servis berkala",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DM7Fy",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "i1ah9",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "build",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ulbct",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ekffn",
+                      "name": "Type",
+                      "fill": "$altB-text",
+                      "content": "Servis berkala",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p4kAoe",
+                      "name": "Meta",
+                      "fill": "$altB-textSecondary",
+                      "content": "2 Nov 2026 · 12.480 km",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "jW69E",
+                  "name": "Cost",
+                  "fill": "$altB-text",
+                  "content": "Rp 350.000",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o9JIkI",
+              "name": "Ganti ban",
+              "width": "fill_container",
+              "fill": "$altB-surface",
+              "cornerRadius": 16,
+              "stroke": "$altB-outline",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GfiMY",
+                  "name": "Icon Box",
+                  "width": 24,
+                  "height": 24,
+                  "fill": "$altB-surface",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "crvpL",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "build",
+                      "library": "Material Symbols Rounded",
+                      "fill": "$textSecondary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hOkT7",
+                  "name": "Text Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OxSxe",
+                      "name": "Type",
+                      "fill": "$altB-text",
+                      "content": "Ganti ban",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ecUos",
+                      "name": "Meta",
+                      "fill": "$altB-textSecondary",
+                      "content": "14 Agu 2026 · 11.950 km",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "C0zbBr",
+                  "name": "Cost",
+                  "fill": "$altB-text",
+                  "content": "Rp 1.200.000",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ]
+  },
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F3F3F1",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#131316",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "surface": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FBFBFA",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#1C1C21",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "surfaceMuted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ECECEA",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#24242B",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1B1B1F",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#F2F1EE",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "textSecondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#64636A",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#A8A6A3",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "textTertiary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#6B6A73",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#95939A",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "outline": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E2E2E0",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#2E2E36",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#546D00",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#C8F169",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "onAccent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#16180D",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "accentSoft": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F7E2",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#202812",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "danger": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DC2626",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#F87171",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "dangerSoft": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FDECEC",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#3A1F1F",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "warning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D97706",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FBBF24",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "warningSoft": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FDF2E4",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#3A2D14",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "caution": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CA8A04",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#EAB308",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "cautionSoft": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FCF6E1",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#332B10",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "glass": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFFB8",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#131316B8",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "font": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "altB-bg": {
+      "type": "color",
+      "value": "#131316"
+    },
+    "altB-surface": {
+      "type": "color",
+      "value": "#1C1C21"
+    },
+    "altB-surfaceMuted": {
+      "type": "color",
+      "value": "#24242B"
+    },
+    "altB-outline": {
+      "type": "color",
+      "value": "#2E2E36"
+    },
+    "altB-text": {
+      "type": "color",
+      "value": "#F2F1EE"
+    },
+    "altB-textSecondary": {
+      "type": "color",
+      "value": "#A8A6A3"
+    },
+    "altB-accent": {
+      "type": "color",
+      "value": "#C8F169"
+    },
+    "altB-onAccent": {
+      "type": "color",
+      "value": "#16180D"
+    },
+    "altB-font": {
+      "type": "string",
+      "value": "Barlow"
+    },
+    "altC-bg": {
+      "type": "color",
+      "value": "#F7F3EC"
+    },
+    "altC-surface": {
+      "type": "color",
+      "value": "#FFFDF9"
+    },
+    "altC-outline": {
+      "type": "color",
+      "value": "#E5DFD4"
+    },
+    "altC-ink": {
+      "type": "color",
+      "value": "#201D19"
+    },
+    "altC-textSecondary": {
+      "type": "color",
+      "value": "#6B655C"
+    },
+    "altC-font": {
+      "type": "string",
+      "value": "Fraunces"
+    },
+    "fontDisplay": {
+      "type": "string",
+      "value": "Barlow"
+    }
+  },
+  "fileToken": "21b2fc4f-9efd-4176-b462-4b6a14552c8f"
+}

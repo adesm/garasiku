@@ -8,7 +8,8 @@
     "scheme": "garasiku",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.adesm.garasiku"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,11 +29,22 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#131316",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Barlow-Regular.ttf",
+            "./assets/fonts/Barlow-Bold.ttf",
+            "./assets/fonts/Barlow-ExtraBold.ttf"
+          ]
+        }
+      ],
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true,
